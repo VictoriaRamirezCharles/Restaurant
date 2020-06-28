@@ -32,9 +32,9 @@ namespace Restaurante
             var sendOrdersDeserialize = (List<Orders>)serializationService.Deserialize(SendOrdersDirectory, SendOrdersFileName);
 
             var sendOrdersTable = new List<Orders>();
-
+            int n = 1;
             sendOrdersTable = sendOrdersDeserialize ?? new List<Orders>();
-            lblMesa.Text = indexMesa.Value.ToString();
+            lblMesa.Text = (indexMesa.Value + n).ToString();
             lblPersonas.Text = orderQuantity.Value.ToString();
 
             ComboBoxItem opcionPorDefecto = new ComboBoxItem
@@ -82,9 +82,9 @@ namespace Restaurante
                             if (sendOrdersTable[i].Name == cboNames.SelectedItem.ToString())
                             {
                                
-                                lblOrders.Items.Add($"Nombre:{sendOrdersTable[i].Name}" +
-                                                          $"Entrada:{sendOrdersTable[i].foodEntrees.Name} Bebida:{sendOrdersTable[i].drinks.Name}" +
-                                                            $"Plato Fuerte:{sendOrdersTable[i].dishes.Name} Postre:{sendOrdersTable[i].dessert.Name}");
+                                lblOrders.Items.Add($"Nombre:{sendOrdersTable[i].Name} |" +
+                                                          $"Entrada:{sendOrdersTable[i].foodEntrees.Name} | Bebida:{sendOrdersTable[i].drinks.Name} |" +
+                                                            $"Plato Fuerte:{sendOrdersTable[i].dishes.Name} | Postre:{sendOrdersTable[i].dessert.Name}");
 
 
                             }

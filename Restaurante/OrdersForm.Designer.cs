@@ -99,8 +99,9 @@
             this.cboDrinks.FormattingEnabled = true;
             this.cboDrinks.Location = new System.Drawing.Point(109, 218);
             this.cboDrinks.Name = "cboDrinks";
-            this.cboDrinks.Size = new System.Drawing.Size(236, 21);
+            this.cboDrinks.Size = new System.Drawing.Size(350, 21);
             this.cboDrinks.TabIndex = 21;
+            this.cboDrinks.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // label6
             // 
@@ -112,6 +113,7 @@
             this.label6.Size = new System.Drawing.Size(37, 13);
             this.label6.TabIndex = 19;
             this.label6.Text = "Mesa";
+            this.label6.ForeColor = System.Drawing.Color.White;
             // 
             // lblOrderNo
             // 
@@ -130,8 +132,9 @@
             this.cboDishes.FormattingEnabled = true;
             this.cboDishes.Location = new System.Drawing.Point(109, 188);
             this.cboDishes.Name = "cboDishes";
-            this.cboDishes.Size = new System.Drawing.Size(236, 21);
+            this.cboDishes.Size = new System.Drawing.Size(350, 21);
             this.cboDishes.TabIndex = 15;
+            this.cboDishes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // cboDessert
             // 
@@ -139,8 +142,9 @@
             this.cboDessert.FormattingEnabled = true;
             this.cboDessert.Location = new System.Drawing.Point(109, 256);
             this.cboDessert.Name = "cboDessert";
-            this.cboDessert.Size = new System.Drawing.Size(237, 21);
+            this.cboDessert.Size = new System.Drawing.Size(350, 21);
             this.cboDessert.TabIndex = 13;
+            this.cboDessert.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // cboEntrees
             // 
@@ -148,40 +152,44 @@
             this.cboEntrees.FormattingEnabled = true;
             this.cboEntrees.Location = new System.Drawing.Point(109, 135);
             this.cboEntrees.Name = "cboEntrees";
-            this.cboEntrees.Size = new System.Drawing.Size(236, 21);
+            this.cboEntrees.Size = new System.Drawing.Size(350, 21);
             this.cboEntrees.TabIndex = 12;
+            this.cboEntrees.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // txtName
             // 
             this.txtName.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.txtName.Location = new System.Drawing.Point(109, 74);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(236, 20);
+            this.txtName.Size = new System.Drawing.Size(350, 20);
             this.txtName.TabIndex = 11;
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // lblNombre
             // 
             this.lblNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.Location = new System.Drawing.Point(3, 74);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(100, 20);
             this.lblNombre.TabIndex = 2;
             this.lblNombre.Text = "Nombre";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNombre.ForeColor = System.Drawing.Color.White;
             // 
             // lblPostre
             // 
             this.lblPostre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPostre.AutoSize = true;
-            this.lblPostre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPostre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPostre.Location = new System.Drawing.Point(3, 256);
             this.lblPostre.Name = "lblPostre";
             this.lblPostre.Size = new System.Drawing.Size(100, 20);
             this.lblPostre.TabIndex = 3;
             this.lblPostre.Text = "Postre";
             this.lblPostre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblPostre.ForeColor = System.Drawing.Color.White;
             // 
             // btnSave
             // 
@@ -192,8 +200,11 @@
             this.btnSave.Size = new System.Drawing.Size(497, 43);
             this.btnSave.TabIndex = 6;
             this.btnSave.Text = "Guardar";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSave.BackColor = System.Drawing.Color.White;
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.LightSeaGreen;
             // 
             // btnCancel
             // 
@@ -205,43 +216,49 @@
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseMnemonic = false;
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.btnCancel.BackColor = System.Drawing.Color.White;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.LightSeaGreen;
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 135);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 20);
             this.label1.TabIndex = 10;
             this.label1.Text = "Entrada:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.ForeColor = System.Drawing.Color.White;
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(3, 189);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 20);
             this.label2.TabIndex = 14;
             this.label2.Text = "Plato Fuerte:";
+            this.label2.ForeColor = System.Drawing.Color.White;
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 219);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 20);
             this.label3.TabIndex = 16;
             this.label3.Text = "Bebida: ";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.ForeColor = System.Drawing.Color.White;
             // 
             // label4
             // 
@@ -253,6 +270,7 @@
             this.label4.Size = new System.Drawing.Size(66, 13);
             this.label4.TabIndex = 17;
             this.label4.Text = "Orden (es)";
+            this.label4.ForeColor = System.Drawing.Color.White;
             // 
             // lblTableNo
             // 
@@ -265,6 +283,7 @@
             this.lblTableNo.TabIndex = 20;
             this.lblTableNo.Text = "01";
             this.lblTableNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+
             // 
             // tableLayoutPanel1
             // 
@@ -282,20 +301,21 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 322F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(540, 470);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(700, 470);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(207, 15);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(126, 20);
             this.label5.TabIndex = 26;
             this.label5.Text = "Lista de Pedidos";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.ForeColor = System.Drawing.Color.White;
             // 
             // btnSendOrder
             // 
@@ -307,25 +327,30 @@
             this.btnSendOrder.Size = new System.Drawing.Size(368, 46);
             this.btnSendOrder.TabIndex = 27;
             this.btnSendOrder.Text = "Enviar Ordenes";
-            this.btnSendOrder.UseVisualStyleBackColor = true;
+            this.btnSendOrder.UseVisualStyleBackColor = false;
             this.btnSendOrder.Click += new System.EventHandler(this.btnSendOrder_Click);
+            this.btnSendOrder.BackColor = System.Drawing.Color.White;
+            this.btnSendOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSendOrder.ForeColor = System.Drawing.Color.LightSeaGreen;
             // 
             // lboPedidos
             // 
             this.lboPedidos.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lboPedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lboPedidos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lboPedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lboPedidos.FormattingEnabled = true;
             this.lboPedidos.Location = new System.Drawing.Point(7, 88);
             this.lboPedidos.Name = "lboPedidos";
-            this.lboPedidos.Size = new System.Drawing.Size(525, 264);
+            this.lboPedidos.Size = new System.Drawing.Size(600, 264);
             this.lboPedidos.TabIndex = 25;
             // 
             // OrdersForm
             // 
+            this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1053, 470);
+            this.ClientSize = new System.Drawing.Size(1311, 509);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.TlpPrincipal);
             this.Name = "OrdersForm";

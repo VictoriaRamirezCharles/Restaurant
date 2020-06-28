@@ -75,9 +75,9 @@ namespace Restaurante
                         {
                             btnCancel.Enabled = true;
                             btnSendOrder.Enabled = true;
-                            lboPedidos.Items.Add($"Nombre : {ordersTable[i].Name}" +
-                                                 $"Entrada : {ordersTable[i].foodEntrees.Name} Bebida : {ordersTable[i].drinks.Name}" +
-                                                 $"Plato Fuerte : {ordersTable[i].dishes.Name} Postre : {ordersTable[i].dessert.Name}");
+                            lboPedidos.Items.Add($"Nombre : {ordersTable[i].Name} |" +
+                                                 $"Entrada : {ordersTable[i].foodEntrees.Name} | Bebida : {ordersTable[i].drinks.Name} | " +
+                                                 $"Plato Fuerte : {ordersTable[i].dishes.Name} | Postre : {ordersTable[i].dessert.Name}");
                              
 
                         }
@@ -85,17 +85,18 @@ namespace Restaurante
                 }
             }
 
+
             lboPedidos.EndUpdate();
 
             fillLists();
         }
 
-        //private void btnBack_Click(object sender, EventArgs e)
-        //{
-        //    Tables tables = Tables.Instancia;
-        //    tables.Show();
-        //    this.Hide();
-        //}
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Tables tables = Tables.Instancia;
+            tables.Show();
+            this.Hide();
+        }
 
         public void fillLists()
         {
@@ -271,9 +272,9 @@ namespace Restaurante
 
                     for (int i = 0; i < 1; i++)
                     {
-                        lboPedidos.Items.Add($"Nombre : {orders[orderIndex].Name} " +
-                                      $"Entrada : {orders[orderIndex].foodEntrees.Name} Bebida :{orders[orderIndex].drinks.Name} " +
-                                      $"Plato Fuerte :{orders[orderIndex].dishes.Name} Postre :{orders[orderIndex].dessert.Name} ");
+                        lboPedidos.Items.Add($"Nombre : {orders[orderIndex].Name} |" +
+                                      $"Entrada : {orders[orderIndex].foodEntrees.Name}| Bebida :{orders[orderIndex].drinks.Name} | " +
+                                      $"Plato Fuerte :{orders[orderIndex].dishes.Name} | Postre :{orders[orderIndex].dessert.Name} ");
                     }
                     lboPedidos.EndUpdate();
                     txtName.Text = "";
@@ -419,9 +420,9 @@ namespace Restaurante
                             {
                                 sendOrdersTable.Add(ordersTable[i]);
 
-                                lboPedidos.Items.Remove($"Nombre :{ordersTable[i].Name}" +
-                                                   $"Entrada :{ordersTable[i].foodEntrees.Name} Bebida :{ordersTable[i].drinks.Name}" +
-                                                     $"Plato Fuerte :{ordersTable[i].dishes.Name} Postre :{ordersTable[i].dessert.Name}");
+                                lboPedidos.Items.Remove($"Nombre :{ordersTable[i].Name} |" +
+                                                   $"Entrada :{ordersTable[i].foodEntrees.Name} | Bebida :{ordersTable[i].drinks.Name}" +
+                                                     $"Plato Fuerte :{ordersTable[i].dishes.Name}| Postre :{ordersTable[i].dessert.Name}");
 
                                 ordersTable.RemoveAt(i);
 
@@ -434,7 +435,7 @@ namespace Restaurante
                                 serializationService.Serialize(Repository.Instancia.resurantTables, TablesDirectory, TablesFileName);
 
                                 btnCancel.Enabled = false;
-                                lboPedidos.EndUpdate();
+                               lboPedidos.EndUpdate();
 
                             }
                         }
