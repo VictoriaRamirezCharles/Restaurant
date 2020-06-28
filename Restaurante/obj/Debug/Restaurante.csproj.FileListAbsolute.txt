@@ -1,0 +1,15 @@
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\bin\Debug\Restaurante.exe.config
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\bin\Debug\Restaurante.exe
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\bin\Debug\Restaurante.pdb
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\bin\Debug\BusinessLayer.dll
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\bin\Debug\BusinessLayer.pdb
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.OrderResume.resources
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.OrdersForm.resources
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.Tables.resources
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.Properties.Resources.resources
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.csproj.GenerateResource.cache
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.csproj.CopyComplete
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.exe
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.pdb
+C:\Users\Victoria\source\repos\Restaurante\Restaurante\obj\Debug\Restaurante.csprojAssemblyReference.cache

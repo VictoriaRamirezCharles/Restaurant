@@ -1,0 +1,6 @@
+C:\Users\Victoria\source\repos\Restaurante\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Victoria\source\repos\Restaurante\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Victoria\source\repos\Restaurante\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Victoria\source\repos\Restaurante\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Victoria\source\repos\Restaurante\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Victoria\source\repos\Restaurante\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
